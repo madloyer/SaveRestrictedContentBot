@@ -1,5 +1,6 @@
 #Tg:MaheshChauhan/DroneBots
 #Github.com/Vasusen-code
+#reupby softmilkPC
 
 """
 Plugin for both public & private channels!
@@ -41,7 +42,7 @@ async def _batch(event):
         await event.reply(r)
         return       
     if f'{event.sender_id}' in batch:
-        return await event.reply("You've already started one batch, wait for it to complete you dumbfuck owner!")
+        return await event.reply("You've already started one batch, wait for it to complete you GOBLOK owner!")
     async with Drone.conversation(event.chat_id) as conv: 
         if s != True:
             await conv.send_message("Send me the message link you want to start saving from, as a reply to this message.", buttons=Button.force_reply())
